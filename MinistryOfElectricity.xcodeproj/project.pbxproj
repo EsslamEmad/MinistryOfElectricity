@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		921F56B721DA62C500111592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56B621DA62C500111592 /* AppDelegate.swift */; };
-		921F56B921DA62C500111592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56B821DA62C500111592 /* ViewController.swift */; };
 		921F56BC21DA62C500111592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921F56BA21DA62C500111592 /* Main.storyboard */; };
 		921F56BE21DA62C900111592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921F56BD21DA62C900111592 /* Assets.xcassets */; };
 		921F56C121DA62C900111592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921F56BF21DA62C900111592 /* LaunchScreen.storyboard */; };
+		921F56CA21DCEB6D00111592 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56C921DCEB6D00111592 /* APIRequests.swift */; };
+		921F56CC21DCEB8100111592 /* APIConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56CB21DCEB8100111592 /* APIConvenience.swift */; };
+		921F56CF21DCEF5900111592 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56CE21DCEF5900111592 /* User.swift */; };
+		921F56D121DCEF8500111592 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56D021DCEF8500111592 /* Form.swift */; };
+		921F56D321DCF06500111592 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56D221DCF06400111592 /* Page.swift */; };
+		921F56D521DCF0B500111592 /* UploadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56D421DCF0B500111592 /* UploadResponse.swift */; };
+		921F56D721DCF12B00111592 /* MessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56D621DCF12B00111592 /* MessageResponse.swift */; };
+		921F56D921DCF43300111592 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F56D821DCF43300111592 /* LoginViewController.swift */; };
+		92B5003D21DCFBDD002CBB02 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5003C21DCFBDD002CBB02 /* Extensions.swift */; };
+		92B5003F21DCFCC0002CBB02 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5003E21DCFCC0002CBB02 /* Authentication.swift */; };
+		92B5004121DCFF9E002CBB02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5004021DCFF9E002CBB02 /* HomeViewController.swift */; };
+		92B5004321DD054C002CBB02 /* AboutUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5004221DD054C002CBB02 /* AboutUSViewController.swift */; };
+		92B5004521DD0AC0002CBB02 /* SendFormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5004421DD0AC0002CBB02 /* SendFormTableViewController.swift */; };
+		92B5004721DD2C77002CBB02 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5004621DD2C77002CBB02 /* ImageCollectionViewCell.swift */; };
+		D0414F7B3A4C2383DC3C41ED /* Pods_MinistryOfElectricity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5DEFDCFE3B5C645078372D /* Pods_MinistryOfElectricity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F5DEFDCFE3B5C645078372D /* Pods_MinistryOfElectricity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinistryOfElectricity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18012728EEF4DAB584377C7C /* Pods-MinistryOfElectricity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinistryOfElectricity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MinistryOfElectricity/Pods-MinistryOfElectricity.debug.xcconfig"; sourceTree = "<group>"; };
 		921F56B321DA62C500111592 /* MinistryOfElectricity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinistryOfElectricity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		921F56B621DA62C500111592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		921F56B821DA62C500111592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		921F56BB21DA62C500111592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		921F56BD21DA62C900111592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		921F56C021DA62C900111592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		921F56C221DA62C900111592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921F56C921DCEB6D00111592 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		921F56CB21DCEB8100111592 /* APIConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConvenience.swift; sourceTree = "<group>"; };
+		921F56CE21DCEF5900111592 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		921F56D021DCEF8500111592 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		921F56D221DCF06400111592 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		921F56D421DCF0B500111592 /* UploadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadResponse.swift; sourceTree = "<group>"; };
+		921F56D621DCF12B00111592 /* MessageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageResponse.swift; sourceTree = "<group>"; };
+		921F56D821DCF43300111592 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		92B5003C21DCFBDD002CBB02 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		92B5003E21DCFCC0002CBB02 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		92B5004021DCFF9E002CBB02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		92B5004221DD054C002CBB02 /* AboutUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUSViewController.swift; sourceTree = "<group>"; };
+		92B5004421DD0AC0002CBB02 /* SendFormTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFormTableViewController.swift; sourceTree = "<group>"; };
+		92B5004621DD2C77002CBB02 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F40B19BB7E61B164D8306846 /* Pods-MinistryOfElectricity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinistryOfElectricity.release.xcconfig"; path = "Pods/Target Support Files/Pods-MinistryOfElectricity/Pods-MinistryOfElectricity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0414F7B3A4C2383DC3C41ED /* Pods_MinistryOfElectricity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E7B43517201B7C6A54E0450 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18012728EEF4DAB584377C7C /* Pods-MinistryOfElectricity.debug.xcconfig */,
+				F40B19BB7E61B164D8306846 /* Pods-MinistryOfElectricity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		921F56AA21DA62C500111592 = {
 			isa = PBXGroup;
 			children = (
 				921F56B521DA62C500111592 /* MinistryOfElectricity */,
 				921F56B421DA62C500111592 /* Products */,
+				0E7B43517201B7C6A54E0450 /* Pods */,
+				9E9DFF0B26151A3AEED18F93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,51 @@
 		921F56B521DA62C500111592 /* MinistryOfElectricity */ = {
 			isa = PBXGroup;
 			children = (
-				921F56B621DA62C500111592 /* AppDelegate.swift */,
-				921F56B821DA62C500111592 /* ViewController.swift */,
-				921F56BA21DA62C500111592 /* Main.storyboard */,
-				921F56BD21DA62C900111592 /* Assets.xcassets */,
-				921F56BF21DA62C900111592 /* LaunchScreen.storyboard */,
+				921F56C821DCEB5C00111592 /* API */,
 				921F56C221DA62C900111592 /* Info.plist */,
+				921F56B621DA62C500111592 /* AppDelegate.swift */,
+				921F56BF21DA62C900111592 /* LaunchScreen.storyboard */,
+				921F56BA21DA62C500111592 /* Main.storyboard */,
+				921F56D821DCF43300111592 /* LoginViewController.swift */,
+				92B5004021DCFF9E002CBB02 /* HomeViewController.swift */,
+				92B5004421DD0AC0002CBB02 /* SendFormTableViewController.swift */,
+				92B5004221DD054C002CBB02 /* AboutUSViewController.swift */,
+				92B5004621DD2C77002CBB02 /* ImageCollectionViewCell.swift */,
+				921F56BD21DA62C900111592 /* Assets.xcassets */,
+				92B5003C21DCFBDD002CBB02 /* Extensions.swift */,
 			);
 			path = MinistryOfElectricity;
+			sourceTree = "<group>";
+		};
+		921F56C821DCEB5C00111592 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				921F56CD21DCEF4B00111592 /* Models */,
+				921F56C921DCEB6D00111592 /* APIRequests.swift */,
+				921F56CB21DCEB8100111592 /* APIConvenience.swift */,
+				92B5003E21DCFCC0002CBB02 /* Authentication.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		921F56CD21DCEF4B00111592 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				921F56CE21DCEF5900111592 /* User.swift */,
+				921F56D021DCEF8500111592 /* Form.swift */,
+				921F56D221DCF06400111592 /* Page.swift */,
+				921F56D421DCF0B500111592 /* UploadResponse.swift */,
+				921F56D621DCF12B00111592 /* MessageResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E9DFF0B26151A3AEED18F93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F5DEFDCFE3B5C645078372D /* Pods_MinistryOfElectricity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 921F56C521DA62C900111592 /* Build configuration list for PBXNativeTarget "MinistryOfElectricity" */;
 			buildPhases = (
+				803AA98ED5FB74165D96882D /* [CP] Check Pods Manifest.lock */,
 				921F56AF21DA62C500111592 /* Sources */,
 				921F56B021DA62C500111592 /* Frameworks */,
 				921F56B121DA62C500111592 /* Resources */,
+				53E91E27474D2462EE246EC3 /* [CP] Embed Pods Frameworks */,
+				682FA909F62024B7FA5F2443 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +212,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53E91E27474D2462EE246EC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MinistryOfElectricity/Pods-MinistryOfElectricity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DefaultsKit/DefaultsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ResponseDetective/ResponseDetective.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DefaultsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResponseDetective.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinistryOfElectricity/Pods-MinistryOfElectricity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682FA909F62024B7FA5F2443 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MinistryOfElectricity/Pods-MinistryOfElectricity-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinistryOfElectricity/Pods-MinistryOfElectricity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		803AA98ED5FB74165D96882D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MinistryOfElectricity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		921F56AF21DA62C500111592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921F56B921DA62C500111592 /* ViewController.swift in Sources */,
+				921F56D921DCF43300111592 /* LoginViewController.swift in Sources */,
+				921F56CF21DCEF5900111592 /* User.swift in Sources */,
+				921F56CA21DCEB6D00111592 /* APIRequests.swift in Sources */,
+				921F56D521DCF0B500111592 /* UploadResponse.swift in Sources */,
+				921F56D321DCF06500111592 /* Page.swift in Sources */,
+				92B5004521DD0AC0002CBB02 /* SendFormTableViewController.swift in Sources */,
+				92B5004721DD2C77002CBB02 /* ImageCollectionViewCell.swift in Sources */,
+				92B5003D21DCFBDD002CBB02 /* Extensions.swift in Sources */,
+				921F56D721DCF12B00111592 /* MessageResponse.swift in Sources */,
+				92B5004321DD054C002CBB02 /* AboutUSViewController.swift in Sources */,
+				921F56D121DCEF8500111592 /* Form.swift in Sources */,
+				921F56CC21DCEB8100111592 /* APIConvenience.swift in Sources */,
 				921F56B721DA62C500111592 /* AppDelegate.swift in Sources */,
+				92B5003F21DCFCC0002CBB02 /* Authentication.swift in Sources */,
+				92B5004121DCFF9E002CBB02 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,37 +448,43 @@
 		};
 		921F56C621DA62C900111592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18012728EEF4DAB584377C7C /* Pods-MinistryOfElectricity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZV3V89VA7Y;
+				DEVELOPMENT_TEAM = 6E4SEUDA7B;
 				INFOPLIST_FILE = MinistryOfElectricity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esslamemad.MinistryOfElectricity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyomapps.MinistryOfElectricity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		921F56C721DA62C900111592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40B19BB7E61B164D8306846 /* Pods-MinistryOfElectricity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZV3V89VA7Y;
+				DEVELOPMENT_TEAM = 6E4SEUDA7B;
 				INFOPLIST_FILE = MinistryOfElectricity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esslamemad.MinistryOfElectricity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyomapps.MinistryOfElectricity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

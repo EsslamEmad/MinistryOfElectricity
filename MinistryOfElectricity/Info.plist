@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<string>ar</string>
+	<key>CFBundleDisplayName</key>
+	<string>شكاوي الكهرباء</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,11 +17,17 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>0.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>التطبيق يتطلب السماح بالوصول إلى مكتبة الصور إن كنت ترغب في إضافة صورة إلى الشكوى عن طريق مكتبة الصور.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>التطبيق يتطلب السماح بالوصول إلى الكاميرا الخاصة بك إن كنت تريد إضافة صورة إلى الشكوى عن طريق الكاميرا.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>التطبيق يتطلب السماح بالوصول لموقعك ان كنت تريد اضافته إلى الشكوى.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -31,8 +39,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
